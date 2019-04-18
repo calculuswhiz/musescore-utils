@@ -1,0 +1,107 @@
+All the commands in musescore according to musescore:
+From cmd.cpp:
+note-c note-d note-e note-f note-g note-a note-b 
+chord-c chord-d chord-e chord-f chord-g chord-a chord-b
+insert-c insert-d insert-e insert-f insert-g insert-a insert-b
+fret-0 fret-1 fret-2 fret-3 fret-4 fret-5 fret-6 fret-7 fret-8 fret-9 fret-10 fret-11 fret-12 fret-13 fret-14
+toggle-visible
+reset-stretch
+mirror-note
+double-duration half-duration
+inc-duration-dotted
+dec-duration-dotted
+add-staccato add-tenuto add-marcato add-sforzato add-trill
+add-up-bow add-down-bow
+add-8va add-8vb
+note-longa note-longa-TAB
+note-breve note-breve-TAB
+pad-note-1 pad-note-1-TAB
+pad-note-2 pad-note-2-TAB
+pad-note-4 pad-note-4-TAB
+pad-note-8 pad-note-8-TAB
+pad-note-16 pad-note-16-TAB
+pad-note-32 pad-note-32-TAB
+pad-note-64 pad-note-64-TAB
+pad-note-128 pad-note-128-TAB
+reset-style reset-beammode reset-groupings
+clef-violin clef-bass
+voice-x12 voice-x13 voice-x14 voice-x23 voice-x24 voice-x34
+pad-rest
+pad-dot pad-dotdot pad-dot3 pad-dot4
+beam-start beam-mid no-beam beam-32
+sharp2 sharp nat flat flat2
+flip
+stretch+ stretch-
+pitch-spell
+select-all select-section
+add-brackets
+acciaccatura appoggiatura
+grace4 grace16 grace32 grace8after grace16after grace32after
+explode implode
+slash-fill slash-rhythm
+resequence-rehearsal-marks
+del-empty-measures
+add-audio
+transpose-up transpose-down
+delete
+full-measure-rest
+toggle-insert-mode
+pitch-up pitch-down
+time-delete pitch-up-octave pitch-down-octave
+pad-note-increase pad-note-decrease pad-note-increase-TAB pad-note-decrease-TAB
+toggle-mmrest toggle-hide-empty
+set-visible unset-visible
+system-break page-break section-break
+relayout
+
+From scoreview.cpp
+escape
+note-input
+copy cut paste paste-half paste-double paste-special
+swap
+lyrics
+figured-bass
+mag
+play
+fotomode
+add-slur add-hairpin add-hairpin-reverse add-noteline
+chord-text title-text subtitle-text composer-text poet-text part-text system-text staff-text expression-text rehearsalmark-text instrument-change-text fingering-text
+edit-element
+select-similar select-similar-staff select-dialog
+page-prev page-next page-top page-end
+select-next-chord select-prev-chord select-next-measure select-prev-measure select-begin-line select-end-line select-begin-score select-end-score select-staff-above select-staff-below
+next-chord prev-chord next-track prev-track next-measure prev-measure
+pitch-up-diatonic pitch-down-diatonic
+move-up move-down
+up-chord down-chord top-chord bottom-chord
+next-segment-element prev-segment-element
+next-element prev-element
+first-element last-element
+rest rest-TAB
+rest-1 rest-2 rest-4 rest-8
+intervalX
+tie chord-tie
+duplet triplet quadruplet quintuplet sextuplet septuplet octuplet nonuplet tuplet-dialog
+repeat-sel
+voice-1 voice-2 voice-3 voice-4
+enh-both enh-current
+revision
+append-measure insert-measure
+insert-hbox insert-vbox append-hbox append-vbox
+insert-textframe append-textframe insert-fretframe
+move-left move-right
+reset
+show-omr
+split-measure join-measures
+next-lyric prev-lyric
+add-remove-breaks
+copy-lyrics-to-clipboard
+realtime-advance
+advance-longa
+advance-breve
+advance-1 advance-2 advance-4 advance-8 advance-16 advance-32 advance-64
+prev-measure-TEXT next-measure-TEXT
+prev-beat-TEXT next-beat-TEXT
+string-above string-below
+text-word-left text-word-right
+concert-pitch

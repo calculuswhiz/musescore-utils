@@ -1,0 +1,22 @@
+# Split rests into quarter rests
+.macro toTriplets
+	triplet
+	escape
+	next-chord
+	next-chord
+	next-chord
+.endm
+
+.macro measureToTriplets
+	.rep 2
+		rest-4
+		escape
+		.rep 2
+			.insertm toTriplets
+		.endrep
+	.endrep
+.endm
+
+.rep <totalMeasures>
+	.insertm measureToTriplets
+.endrep

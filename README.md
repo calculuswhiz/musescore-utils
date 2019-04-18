@@ -14,13 +14,15 @@ Has the following functions:
 ### `selectionStat(score)`
 **Description:**
 Get information about the current selection:
-    startStaffIdx (Number)
-    staves (Number)
-    cursor (Cursor)
-    ticks (Number)
-    firstMeasure (Measure)
-    lastMeasure (Measure)
-    totalMeasures (Number)
+
+- startStaffIdx (Number)
+- staves (Number)
+- cursor (Cursor)
+- ticks (Number)
+- firstMeasure (Measure)
+- lastMeasure (Measure)
+- totalMeasures (Number)
+    
 A selection is required. No selection throws an Error.
 
 **Args:**
